@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Company Application Portal</h1>
+    </header>
+    
+    <main>
+
+    
+        <!-- <section class="internship-search">
+            <h2>Search Internships</h2>
+            <div class="dropdown">
+                <button onclick="toggleDropdown()" class="dropbtn">Select Internship</button>
+                <div id="dropdown-content" class="dropdown-content">
+                    <a href="#" data-value="frontend-developer">Frontend Developer Intern</a>
+                    <a href="#" data-value="backend-developer">Backend Developer Intern</a>
+                    <a href="#" data-value="data-analyst">Data Analyst Intern</a>
+                    <a href="#" data-value="ui-ux-designer">UI/UX Designer Intern</a>
+                </div>
+            </div>
+            <button id="search-button">Search</button>
+        </section> -->
+
+        <!-- <section class="internship-search">
+            <h2>What are you applying for?</h2>
+            <input type="text" id="internship-search-input" placeholder="Type your position">
+            <button id="search-button">Search</button>
+        </section> -->
+
+        <!-- <section class="internship-listings">
+            <h2>Internship Listings</h2>
+            <div id="internship-listings-container"></div>
+        </section> -->
+
+        <section class="apply-internship">
+            <h2>Apply for a Job</h2>
+            <form id="internship-application-form">
+                <input type="text" id="applicant-name" placeholder="Your Name" required>
+                <input type="email" id="applicant-email" placeholder="Your Email" required>
+                <label for="internship-dropdown">Select Role : <br></label>
+                <select id="internship-dropdown">
+                    <option value="frontend-developer">Frontend Developer </option>
+                    <option value="backend-developer">Backend Developer </option>
+                    <option value="data-analyst">Data Analyst </option>
+                    <option value="ui-ux-designer">UI/UX Designer </option>
+                </select>
+                <br>
+                <!-- <label for="resume-upload">Upload your CV <br></label> -->
+                <input type="file" id="resume-upload" placeholder="Your file" class="selector" required>
+                <!-- <input type="file" id="picture-input" accept="image/*" capture="environment"> -->
+                <button type="submit" class="submit">Submit Application</button>
+            </form>
+        </section>
+
+        <!-- <section class="internship-search">
+            <h2>Search Internships</h2>
+            <label for="internship-dropdown">Select Internship:</label>
+            <select id="internship-dropdown">
+                <option value="frontend-developer">Frontend Developer Intern</option>
+                <option value="backend-developer">Backend Developer Intern</option>
+                <option value="data-analyst">Data Analyst Intern</option>
+                <option value="ui-ux-designer">UI/UX Designer Intern</option>
+            </select>
+            <button id="search-button">Search</button>
+        </section> -->
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
